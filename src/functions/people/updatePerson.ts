@@ -4,7 +4,6 @@ import PeopleRepositories from "src/repositories/implementations/PeopleRepositor
 import NotFoundError from "src/errors/NotFoundError";
 import ValidationError from "src/errors/ValidationError";
 import { ok } from "src/utils/Returns";
-import ValidationError from "src/errors/ValidationError";
 
 const updatePassword = async (
     event: APIGatewayProxyEvent
